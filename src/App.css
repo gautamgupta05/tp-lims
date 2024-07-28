@@ -1,0 +1,194 @@
+/* .App {
+  text-align: center;
+} */
+
+.register {
+  margin-left: 30%; 
+  width: 500px; /* Adjust the width of the form */
+}
+
+.inputBox {
+  display: block;
+  margin: 10px;
+  padding: 7px;
+  width: calc(50% - 20px); /* Adjust width to occupy half of the parent container */
+  border: 1px solid gray;
+  box-sizing: border-box; /* Ensure padding and border are included in width calculation */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 10px; */
+}
+
+.left, .right {
+  flex: 1; /* Equal width for left and right columns */
+  margin: 10px;
+}
+
+.appButton {
+  margin: 25px 10px;
+  padding: 10px;
+  width: calc(100% - 20px); /* Adjust button width to fill the parent container */
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.nav-ul li a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+
+.invalid-input {
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #282c34;
+
+}
+
+.register,
+.course {
+  margin-left: 30%;
+}
+
+.login {
+  margin-left: 30%;
+  margin-top: 100px;
+}
+
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid gray;
+}
+
+.appButton {
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.logo {
+  width: 45px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.course-list{
+  text-align: center;
+  margin-top: 50px;
+
+}
+.course-list ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 130px;
+}
+.course-list ul{
+  margin: 0px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    /* margin-bottom: 15px; */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.main {
+  background-color: #fff;
+  border-radius: 15px;
+  margin-left: 23%;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
+  padding: 20px;
+  /* margin: 15px; */
+  width: 50%;
+}
+
+.main h2 {
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: bold;
+}
